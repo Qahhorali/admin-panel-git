@@ -5,6 +5,8 @@
     background-color: #fff;
     border: 1px solid red;
     padding: 10px 20px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
 }
 .navbar .logo img{
     width: 60px;
@@ -70,4 +72,59 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.saidbar{
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid red;
+    padding: 20px;
+    height: calc(100vh - 80px);
+    margin: 16px;
+    border-radius: 14px;
+    transition: all 0.5s ease;
+}
+.saidbar .saidbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.saidbar .saidbar-logo h2{
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 46px;
+    color: black;
+}
+.saidbar .saidbar-logo .hamburger{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #555;
+}
+.saidbar .saidbar-logo .hamburger i{
+    font-size: 26px;
+}
+.saidbar nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    flex-direction: column;
+}
+.saidbar nav ul a{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid red;
+    text-decoration: none;
+}
+.saidbar nav ul a i{
+    font-size: 22px;
+    color: #555;
+}
+.saidbar nav ul a .saidbar-name{
+    font-size: 18px;
+    color: #555;
 }

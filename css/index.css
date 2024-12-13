@@ -7,4 +7,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--backgraund-color);
+}
+:root {
+  --primery-color: #fff;
+  --secondary-color: #000;
+  --backgraund-color: #F1F1F1;
+  --text-color: #212121;
 }
