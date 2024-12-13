@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    border: 1px solid red;
     padding: 10px 20px;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
@@ -11,7 +10,7 @@
 .navbar .logo img{
     width: 60px;
     height: 60px;
-    border: 1px solid red;
+    border: 1px solid #555;
     border-radius: 50%;
 }
 .navbar .logo{
@@ -76,12 +75,11 @@
 .saidbar{
     width: 300px;
     background-color: #fff;
-    border: 1px solid red;
     padding: 20px;
     height: calc(100vh - 80px);
     margin: 16px;
     border-radius: 14px;
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
 }
 .saidbar .saidbar-logo{
     display: flex;
@@ -117,7 +115,6 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    border: 1px solid red;
     text-decoration: none;
 }
 .saidbar nav ul a i{
